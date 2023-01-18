@@ -1,0 +1,31 @@
+////////////////////
+// SPECIAL ACTORS //
+////////////////////
+
+actor ClientSpawner 19191
+{
+  -SOLID
+  +NOGRAVITY
+  +CLIENTSIDEONLY
+  States
+   {
+   Spawn:
+    TNT1 A 1
+    Loop
+   }
+}
+
+
+////////////////////
+// LOAD LIBRARIES //
+////////////////////
+
+#include "Decorate/DEC_MONS.dec"
+#include "Decorate/DEC_WEAP.dec"
+#include "Decorate/DEC_MARI.dec"
+#include "Decorate/DEC_OBJE.dec"
+#include "Decorate/DEC_WOLF.dec"
+#include "Decorate/DEC_SMSM.dec"
+#include "Decorate/DEC_SFX.dec"
+
+
