@@ -1,0 +1,533 @@
+[default]
+// The Ultimate Torment and Torture Footsteps
+// Language Definitions
+
+// This is where the footstep sounds for each texture are defined.
+// The definition MUST be STEP_<texturename>
+
+// Flats
+// This is a list of flats that have footstep sounds associated with them.
+// Items are separated by a colon ( : )
+// If a flat/texture is not present in this list, then only the default sound will be
+// played when it is walked on.
+STEP_FLATSTUTNT = "ADEL_B00:ADEL_B01:ADEL_B03:ADEL_B04:ADEL_B05:ADEL_B06:ADEL_B07:ADEL_B08:ADEL_B09:ADEL_B10:"
+									"ADEL_B11:ADEL_B12:ADEL_B13:ADEL_B14:ADEL_B15:ADEL_B16:ADEL_B17:ADEL_B18:ADEL_B19:ADEL_B20:"
+									"ADEL_B21:ADEL_B22:ADEL_B23:"
+									"ADEL_C01:ADEL_C02:ADEL_C03:ADEL_C04:"
+									"ADEL_D08:"
+									"ADEL_D11:ADEL_D12:ADEL_D13:ADEL_D14:ADEL_D15:"
+									"ADEL_E01:ADEL_E02:ADEL_E03:"
+									"ADEL_F04:ADEL_F08:ADEL_F09:"
+									"ADEL_F12:ADEL_F13:ADEL_F14:ADEL_F16:"
+									"ADEL_F31:ADEL_F33:ADEL_F34:ADEL_F36:"
+									"ADEL_F47:ADEL_F48:ADEL_F49:ADEL_F50:"
+									"ADEL_F51:ADEL_F52:ADEL_F53:ADEL_F54:ADEL_F55:ADEL_F56:ADEL_F57:ADEL_F58:ADEL_F59:ADEL_F60:"
+									"ADEL_F61:ADEL_F62:ADEL_F63:ADEL_F64:ADEL_F65:ADEL_F66:ADEL_F67:ADEL_F68:ADEL_F70:"
+									"ADEL_F71:ADEL_F72:ADEL_F73:ADEL_F74:ADEL_F75:ADEL_F76:ADEL_F80:"
+									"ADEL_F81:ADEL_F82:ADEL_F83:ADEL_F84:"
+									"ADEL_G01:ADEL_G02:ADEL_G03:ADEL_G04:ADEL_GXX:"
+									"ADEL_J01:ADEL_J02:ADEL_J03:ADEL_J04:ADEL_J05:ADEL_J06:ADEL_J07:ADEL_J08:ADEL_J09:ADEL_J10:"
+									"ADEL_J11:ADEL_J12:ADEL_J13:ADEL_J14:ADEL_J15:ADEL_J16:ADEL_J17:ADEL_J18:ADEL_J19:"
+									"ADEL_L03:ADEL_L04:ADEL_L05:ADEL_L06:ADEL_L07:ADEL_L09:ADEL_L20:ADEL_L21:ADEL_L22:ADEL_L23:"
+									"ADEL_M01:ADEL_M02:ADEL_M03:ADEL_M04:ADEL_M05:ADEL_M06:ADEL_M07:"
+									"ADEL_N01:ADEL_N02:ADEL_N03:ADEL_N04:ADEL_N05:ADEL_N06:ADEL_N07:ADEL_N08:ADEL_N09:ADEL_N10:"
+									"ADEL_N23:ADEL_N24:ADEL_N25:ADEL_N26:ADEL_N30:"
+									"ADEL_P50:ADEL_P51:ADEL_P52:ADEL_P53:ADEL_P54:ADEL_P55:ADEL_P56:ADEL_P57:ADEL_P58:ADEL_P60:"
+									"ADEL_Q01:ADEL_Q02:ADEL_Q03:ADEL_Q04:"
+									"ADEL_Q40:ADEL_Q41:ADEL_Q42:ADEL_Q43:"
+									"ADEL_Q60:ADEL_Q61:ADEL_Q62:"
+									"ADEL_R90:ADEL_R91:ADEL_R92:ADEL_R93:ADEL_R94:ADEL_R95:ADEL_R96:ADEL_R97:ADEL_R98:ADEL_R99:"
+									"ADEL_RR1:ADEL_RR2:ADEL_RR3:ADEL_RR4:ADEL_RR5:"
+									"ADEL_S00:ADEL_S01:ADEL_S03:ADEL_S04:ADEL_S05:ADEL_S06:ADEL_S19:ADEL_S32:ADEL_S33:ADEL_S40:"
+									"ADEL_S50:ADEL_S51:ADEL_S52:ADEL_S53:ADEL_S54:ADEL_S55:ADEL_S56:ADEL_S65:ADEL_S66:ADEL_S67:ADEL_S68:ADEL_S69:ADEL_S70:"
+									"ADEL_S71:ADEL_S96:ADEL_S97:ADEL_S98:ADEL_S99:"
+									"ADEL_T01:"
+									"ADEL_U20:ADEL_U21:ADEL_U22:"
+									"ADEL_V80:ADEL_V81:ADEL_V82:"
+									"ADEL_V98:ADEL_V99:"
+									"ADEL_W00:ADEL_W14:ADEL_W19:ADEL_W23:ADEL_W24:ADEL_W29:ADEL_W30:"
+									"ADEL_W31:ADEL_W32:ADEL_W33:ADEL_W34:ADEL_W35:ADEL_W36:ADEL_W37:ADEL_W38:ADEL_W39:"
+									"ADEL_W53:ADEL_W54:ADEL_W53:ADEL_W60:ADEL_W61:"
+									"ADEL_X03:ADEL_X04:"
+									"ADEL_Y01:ADEL_Y02:ADEL_Y03:ADEL_Y04:ADEL_Y05:ADEL_Y06:ADEL_Y07:ADEL_Y08:"
+									"ADEL_Y30:ADEL_Y31:ADEL_Y32:"
+									"ADEL_Y60:ADEL_Y61:ADEL_Y62:ADEL_Y66:ADEL_Y67:ADEL_Y68:ADEL_Y69:ADEL_Y70:"
+									"ADEL_Y71:ADEL_Y72:ADEL_Y73:ADEL_Y74:ADEL_Y75:ADEL_Y76:ADEL_Y77:ADEL_Y78:"
+									"ADEL_Z01:ADEL_Z03:ADEL_Z04:ADEL_Z05:ADEL_Z50:ADEL_Z51:ADEL_Z60:"
+									"ADEL_Z61:ADEL_Z62:ADEL_Z90:ADEL_Z91:ADEL_Z92:ADEL_Z93:ADEL_Z94:"
+									"CFLOOR1:CFLOOR2:CFLOOR3:CFLOOR4:"
+									"CITYF01:CITYF02:CITYF03:CITYF04:CITYF05:CITYF06:CITYF07:CITYF08:CITYF09:CITYF10:"
+									"CITYF11:CITYF12:CITYF13:CITYF14:CITYF15:CITYF16:CITYF17:CITYF18:CITYF19:CITYF20:"
+									"CITYF21:"
+									"COLMF1:COLMF2:COLMF3:COLMF4:"
+									"FLOOR1:FLOOR2:FLOOR3:FLOOR4:"
+									"GRAVE01:GRAVE02:GRAVE03:GRAVE04:GRAVE05:GRAVE06:GRAVE07:GRAVE08:GRAVE09:GRAVE10:GRAVE11:GRAVE12:"
+									""
+									""
+									"METALF01:METALF02:METALF03:METALF04:METALF05:METALF06:METALF07:METALF08:METALF09:METALF10:"
+									"METALF11:METALF12:METALF13:METALF14:METALF15:METALF16:METALF17:METALF18:METALF19:METALF20:"
+									"METALF21:METALF22:METALF23:METALF24:"
+									"PLATF2:"
+									"QCOMP1:QCOMP2:QCOMP3:QCOMP4:QCOMP5:QCOMP6:QCOMP7:QCOMP8:"
+									"QEXIT1:QEXIT2:QEXIT3:QFLAT01:QFLAT02:QFLAT03:QFLAT04:QFLAT05:QFLAT06:QFLAT07:QFLAT09:QFLAT10:"
+									"QFWAT:"
+									"QGRASS:"
+									"QLAVA:QLAVA2:QLAVA7:"
+									"QMET01:QMET18:"
+									"QROCK1:QROCK2:QROCK3:QROCK4:QROCK5:"
+									"QSLIME1:QSLIME2:"
+									"QSLIP1:QSLIP2:QSLIP3:QSLIP4:QSLIP5:QSLIP6:QSLIP7:"
+									"QTELEPT:QWATER1:QWATER2:QWATER3:QWATER3A:QWATERT6:"
+									""
+									"Q2COMP3:Q2COMP4:Q2COMP5:Q2COMP6:Q2COMP7:Q2COMP8:Q2COMP9:Q2COMP10:Q2COMP11:Q2COMP12:Q2COMP13:Q2COMP14:"
+									"Q2FLAT05:Q2FLAT06:Q2FLAT07:Q2FLAT08:"
+									"ROCKF1:ROCKF2:ROCKF3:ROCKF4:ROCKF5:ROCKF6:ROCKF7:ROCKF8:"
+									"";
+
+// Sounds
+STEP_ADEL_B00 = "step/grate";
+STEP_ADEL_B01 = "step/hard";
+STEP_ADEL_B03 = "step/wood";
+STEP_ADEL_B04 = "step/wood";
+STEP_ADEL_B05 = "step/hard";
+STEP_ADEL_B06 = "step/hard";
+STEP_ADEL_B07 = "step/hard";
+STEP_ADEL_B08 = "step/hard";
+STEP_ADEL_B09 = "step/hard";
+STEP_ADEL_B10 = "step/hard";
+STEP_ADEL_B11 = "step/metal/a";
+STEP_ADEL_B12 = "step/hard";
+STEP_ADEL_B13 = "step/hard";
+STEP_ADEL_B14 = "step/hard";
+STEP_ADEL_B15 = "step/hard";
+STEP_ADEL_B16 = "step/hard";
+STEP_ADEL_B17 = "step/hard";
+STEP_ADEL_B18 = "step/slimy";
+STEP_ADEL_B19 = "step/hard";
+STEP_ADEL_B20 = "step/hard";
+STEP_ADEL_B21 = "step/hard";
+STEP_ADEL_B22 = "step/rock";
+STEP_ADEL_B23 = "step/rock";
+
+STEP_ADEL_C02 = "step/grate";
+STEP_ADEL_C03 = "step/grate";
+STEP_ADEL_C04 = "step/grate";
+
+STEP_ADEL_D08 = "step/wood";
+STEP_ADEL_D11 = "step/wood";
+STEP_ADEL_D12 = "step/grate";
+STEP_ADEL_D13 = "step/metal/a";
+STEP_ADEL_D14 = "step/metal/a";
+STEP_ADEL_D15 = "step/metal/b";
+
+STEP_ADEL_E01 = "step/hard";
+STEP_ADEL_E02 = "step/hard";
+STEP_ADEL_E03 = "step/hard";
+
+STEP_ADEL_F04 = "step/dirt";
+STEP_ADEL_F08 = "step/hard";
+STEP_ADEL_F09 = "step/metal/b";
+STEP_ADEL_F12 = "step/wood";
+STEP_ADEL_F13 = "step/wood";
+STEP_ADEL_F14 = "step/hard";
+STEP_ADEL_F16 = "step/metal/a";
+STEP_ADEL_F31 = "step/tile/a";
+STEP_ADEL_F33 = "step/metal/a";
+STEP_ADEL_F34 = "step/metal/a";
+STEP_ADEL_F36 = "step/metal/a";
+STEP_ADEL_F47 = "step/hard";
+STEP_ADEL_F48 = "step/hard";
+STEP_ADEL_F49 = "step/hard";
+STEP_ADEL_F50 = "step/metal/b";
+STEP_ADEL_F51 = "step/metal/b";
+STEP_ADEL_F52 = "step/metal/b";
+STEP_ADEL_F53 = "step/metal/b";
+STEP_ADEL_F54 = "step/metal/a";
+STEP_ADEL_F55 = "step/hard";
+STEP_ADEL_F56 = "step/hard";
+STEP_ADEL_F57 = "step/metal/a";
+STEP_ADEL_F58 = "step/metal/a";
+STEP_ADEL_F59 = "step/metal/a";
+STEP_ADEL_F60 = "step/metal/a";
+STEP_ADEL_F61 = "step/metal/a";
+STEP_ADEL_F62 = "step/hard";
+STEP_ADEL_F63 = "step/hard";
+STEP_ADEL_F64 = "step/metal/b";
+STEP_ADEL_F65 = "step/default";
+STEP_ADEL_F66 = "step/default";
+STEP_ADEL_F67 = "step/wood";
+STEP_ADEL_F68 = "step/wood";
+STEP_ADEL_F70 = "null";
+STEP_ADEL_F71 = "step/wood";
+STEP_ADEL_F72 = "step/wood";
+STEP_ADEL_F73 = "step/grate";
+STEP_ADEL_F74 = "step/grate";
+STEP_ADEL_F75 = "step/hard";
+STEP_ADEL_F76 = "step/hard";
+STEP_ADEL_F80 = "step/metal/b";
+STEP_ADEL_F81 = "step/metal/b";
+STEP_ADEL_F82 = "step/metal/b";
+STEP_ADEL_F83 = "step/metal/b";
+STEP_ADEL_F84 = "step/metal/b";
+
+STEP_ADEL_G01 = "step/wood";
+STEP_ADEL_G02 = "step/wood";
+STEP_ADEL_G03 = "step/wood";
+STEP_ADEL_G04 = "step/wood";
+STEP_ADEL_GXX = "step/hard";
+
+STEP_ADEL_J01 = "step/hard";
+STEP_ADEL_J02 = "step/hard";
+STEP_ADEL_J03 = "step/tile/b";
+STEP_ADEL_J04 = "step/hard";
+STEP_ADEL_J05 = "step/hard";
+STEP_ADEL_J06 = "step/tile/b";
+STEP_ADEL_J07 = "step/tile/b";
+STEP_ADEL_J08 = "step/tile/b";
+STEP_ADEL_J09 = "step/tile/b";
+STEP_ADEL_J10 = "step/tile/b";
+STEP_ADEL_J11 = "step/tile/b";
+STEP_ADEL_J12 = "step/tile/a";
+STEP_ADEL_J13 = "step/metal/a";
+STEP_ADEL_J14 = "step/hard";
+STEP_ADEL_J15 = "step/tile/a";
+STEP_ADEL_J16 = "step/metal/a";
+STEP_ADEL_J17 = "step/rock";
+STEP_ADEL_J18 = "step/metal/a";
+STEP_ADEL_J19 = "step/wood";
+
+STEP_ADEL_L03 = "step/metal/b";
+STEP_ADEL_L04 = "step/metal/b";
+STEP_ADEL_L05 = "step/metal/b";
+STEP_ADEL_L06 = "step/metal/b";
+STEP_ADEL_L07 = "step/metal/b";
+STEP_ADEL_L09 = "step/metal/b";
+STEP_ADEL_L20 = "step/metal/a";
+STEP_ADEL_L21 = "step/metal/a";
+STEP_ADEL_L22 = "step/metal/a";
+STEP_ADEL_L23 = "step/metal/a";
+
+STEP_ADEL_M01 = "step/metal/a";
+STEP_ADEL_M02 = "step/metal/b";
+STEP_ADEL_M03 = "step/metal/b";
+STEP_ADEL_M04 = "step/metal/b";
+STEP_ADEL_M05 = "step/metal/b";
+STEP_ADEL_M06 = "step/metal/b";
+STEP_ADEL_M07 = "step/metal/b";
+
+STEP_ADEL_N01 = "step/default";
+STEP_ADEL_N02 = "step/default";
+STEP_ADEL_N03 = "step/default";
+STEP_ADEL_N04 = "step/default";
+STEP_ADEL_N05 = "step/metal/a";
+STEP_ADEL_N06 = "step/default";
+STEP_ADEL_N07 = "step/metal/b";
+STEP_ADEL_N08 = "step/metal/b";
+STEP_ADEL_N09 = "step/metal/b";
+STEP_ADEL_N10 = "step/metal/b";
+STEP_ADEL_N23 = "step/grate";
+STEP_ADEL_N24 = "step/metal/b";
+STEP_ADEL_N25 = "step/grate";
+STEP_ADEL_N26 = "step/grate";
+STEP_ADEL_N30 = "step/metal/b";
+
+STEP_ADEL_P50 = "step/tile/a";
+STEP_ADEL_P51 = "step/tile/a";
+STEP_ADEL_P52 = "step/hard";
+STEP_ADEL_P53 = "step/tile/a";
+STEP_ADEL_P54 = "step/tile/b";
+STEP_ADEL_P55 = "step/tile/b";
+STEP_ADEL_P56 = "step/tile/b";
+STEP_ADEL_P57 = "step/tile/b";
+STEP_ADEL_P58 = "step/tile/a";
+STEP_ADEL_P60 = "step/hard";
+
+STEP_ADEL_Q01 = "step/metal/a";
+STEP_ADEL_Q02 = "step/metal/a";
+STEP_ADEL_Q03 = "step/metal/a";
+STEP_ADEL_Q04 = "step/metal/a";
+STEP_ADEL_Q40 = "step/hard";
+STEP_ADEL_Q41 = "step/hard";
+STEP_ADEL_Q42 = "step/hard";
+STEP_ADEL_Q43 = "step/hard";
+STEP_ADEL_Q60 = "step/hard";
+STEP_ADEL_Q61 = "step/hard";
+STEP_ADEL_Q62 = "step/hard";
+
+STEP_ADEL_R90 = "step/tile/b";
+STEP_ADEL_R91 = "step/tile/a";
+STEP_ADEL_R92 = "step/hard";
+STEP_ADEL_R93 = "step/hard";
+STEP_ADEL_R94 = "step/metal/a";
+STEP_ADEL_R95 = "step/metal/a";
+STEP_ADEL_R96 = "step/metal/a";
+STEP_ADEL_R97 = "step/metal/a";
+STEP_ADEL_R98 = "step/metal/a";
+STEP_ADEL_R99 = "step/metal/a";
+STEP_ADEL_RR1 = "step/metal/a";
+STEP_ADEL_RR2 = "step/metal/a";
+STEP_ADEL_RR3 = "step/metal/a";
+STEP_ADEL_RR4 = "step/hard";
+STEP_ADEL_RR5 = "step/metal/a";
+
+STEP_ADEL_S00 = "step/metal/a";
+STEP_ADEL_S01 = "step/metal/a";
+STEP_ADEL_S03 = "step/grate";
+STEP_ADEL_S04 = "step/grate";
+STEP_ADEL_S05 = "step/grate";
+STEP_ADEL_S06 = "step/wood";
+STEP_ADEL_S19 = "step/metal/b";
+STEP_ADEL_S32 = "step/metal/b";
+STEP_ADEL_S33 = "step/metal/b";
+STEP_ADEL_S40 = "step/metal/b";
+STEP_ADEL_S50 = "step/metal/b";
+STEP_ADEL_S51 = "step/metal/b";
+STEP_ADEL_S52 = "step/metal/a";
+STEP_ADEL_S53 = "step/metal/a";
+STEP_ADEL_S54 = "step/metal/a";
+STEP_ADEL_S55 = "step/metal/a";
+STEP_ADEL_S56 = "step/metal/a";
+STEP_ADEL_S65 = "step/metal/a";
+STEP_ADEL_S66 = "step/metal/a";
+STEP_ADEL_S67 = "step/metal/a";
+STEP_ADEL_S68 = "step/metal/a";
+STEP_ADEL_S69 = "step/hard";
+STEP_ADEL_S70 = "step/hard";
+STEP_ADEL_S71 = "step/wood";
+STEP_ADEL_S96 = "step/hard";
+STEP_ADEL_S97 = "step/hard";
+STEP_ADEL_S98 = "step/hard";
+STEP_ADEL_S99 = "step/hard";
+
+STEP_ADEL_T01 = "step/hard";
+
+STEP_ADEL_U20 = "step/hard";
+STEP_ADEL_U21 = "step/hard";
+STEP_ADEL_U22 = "step/hard";
+
+STEP_ADEL_V80 = "step/hard";
+STEP_ADEL_V81 = "step/hard";
+STEP_ADEL_V82 = "step/hard";
+STEP_ADEL_V98 = "step/tile/b";
+STEP_ADEL_V99 = "step/hard";
+STEP_ADEL_W00 = "step/grate";
+STEP_ADEL_W14 = "step/grate";
+STEP_ADEL_W19 = "step/hard";
+STEP_ADEL_W23 = "step/hard";
+STEP_ADEL_W24 = "step/hard";
+STEP_ADEL_W29 = "step/metal/a";
+STEP_ADEL_W30 = "step/metal/a";
+STEP_ADEL_W31 = "step/metal/a";
+STEP_ADEL_W32 = "step/metal/a";
+STEP_ADEL_W33 = "step/metal/b";
+STEP_ADEL_W34 = "step/metal/b";
+STEP_ADEL_W35 = "step/metal/a";
+STEP_ADEL_W36 = "step/metal/a";
+STEP_ADEL_W37 = "step/wood";
+STEP_ADEL_W38 = "step/wood";
+STEP_ADEL_W39 = "step/wood";
+STEP_ADEL_W53 = "step/metal/a";
+STEP_ADEL_W53 = "step/hard";
+STEP_ADEL_W60 = "step/hard";
+STEP_ADEL_W61 = "step/hard";
+STEP_ADEL_X03 = "step/metal/b";
+STEP_ADEL_X04 = "step/metal/b";
+STEP_ADEL_Y00 = "step/metal/b";
+STEP_ADEL_Y01 = "step/metal/b";
+STEP_ADEL_Y02 = "step/metal/a";
+STEP_ADEL_Y03 = "step/metal/b";
+STEP_ADEL_Y04 = "step/metal/b";
+STEP_ADEL_Y05 = "step/metal/b";
+STEP_ADEL_Y06 = "step/hard";
+STEP_ADEL_Y07 = "step/hard";
+STEP_ADEL_Y08 = "step/hard";
+STEP_ADEL_Y30 = "step/metal/b";
+STEP_ADEL_Y31 = "step/metal/b";
+STEP_ADEL_Y32 = "step/metal/b";
+STEP_ADEL_Y60 = "step/hard";
+STEP_ADEL_Y61 = "step/hard";
+STEP_ADEL_Y62 = "step/hard";
+STEP_ADEL_Y66 = "step/hard";
+STEP_ADEL_Y67 = "step/hard";
+STEP_ADEL_Y68 = "step/hard";
+STEP_ADEL_Y69 = "step/hard";
+STEP_ADEL_Y70 = "step/hard";
+STEP_ADEL_Y71 = "step/hard";
+STEP_ADEL_Y72 = "step/hard";
+STEP_ADEL_Y73 = "step/hard";
+STEP_ADEL_Y74 = "step/metal/b";
+STEP_ADEL_Y75 = "step/metal/b";
+STEP_ADEL_Y76 = "step/metal/b";
+STEP_ADEL_Y77 = "step/metal/b";
+STEP_ADEL_Y78 = "step/metal/b";
+STEP_ADEL_Z01 = "step/default";
+STEP_ADEL_Z03 = "step/metal/b";
+STEP_ADEL_Z04 = "step/metal/b";
+STEP_ADEL_Z05 = "step/metal/b";
+STEP_ADEL_Z50 = "step/metal/b";
+STEP_ADEL_Z51 = "step/metal/b";
+STEP_ADEL_Z60 = "step/grate";
+STEP_ADEL_Z61 = "step/grate";
+STEP_ADEL_Z62 = "step/grate";
+STEP_ADEL_Z90 = "null";
+STEP_ADEL_Z91 = "null";
+STEP_ADEL_Z92 = "null";
+STEP_ADEL_Z93 = "null";
+STEP_ADEL_Z94 = "null";
+
+STEP_CFLOOR1 = "step/tile/b";
+STEP_CFLOOR2 = "step/tile/b";
+STEP_CFLOOR3 = "step/tile/a";
+STEP_CFLOOR4 = "step/tile/a";
+
+STEP_CITYF01 = "step/hard";
+STEP_CITYF02 = "step/hard";
+STEP_CITYF03 = "step/hard";
+STEP_CITYF04 = "step/hard";
+STEP_CITYF05 = "step/hard";
+STEP_CITYF06 = "step/hard";
+STEP_CITYF07 = "step/hard";
+STEP_CITYF08 = "step/hard";
+STEP_CITYF09 = "step/hard";
+STEP_CITYF10 = "step/hard";
+STEP_CITYF11 = "step/hard";
+STEP_CITYF12 = "step/hard";
+STEP_CITYF13 = "step/hard";
+STEP_CITYF14 = "step/hard";
+STEP_CITYF15 = "step/hard";
+STEP_CITYF16 = "step/hard";
+STEP_CITYF17 = "step/hard";
+STEP_CITYF18 = "step/hard";
+STEP_CITYF19 = "step/hard";
+STEP_CITYF20 = "step/hard";
+STEP_CITYF21 = "step/hard";
+
+STEP_COLMF1 = "step/hard";
+STEP_COLMF2 = "step/hard";
+STEP_COLMF3 = "step/hard";
+STEP_COLMF4 = "step/hard";
+
+STEP_FLOOR1 = "step/metal/b";
+STEP_FLOOR2 = "step/metal/b";
+STEP_FLOOR3 = "step/metal/b";
+STEP_FLOOR4 = "step/metal/b";
+
+STEP_GRAVE01 = "step/dirt";
+STEP_GRAVE02 = "step/dirt";
+STEP_GRAVE03 = "step/hard";
+STEP_GRAVE04 = "step/hard";
+STEP_GRAVE05 = "step/hard";
+STEP_GRAVE06 = "step/hard";
+STEP_GRAVE07 = "step/hard";
+STEP_GRAVE08 = "step/hard";
+STEP_GRAVE09 = "step/hard";
+STEP_GRAVE10 = "step/dirt";
+STEP_GRAVE11 = "step/dirt";
+STEP_GRAVE12 = "step/dirt";
+
+STEP_METALF01 = "step/metal/a";
+STEP_METALF02 = "step/metal/a";
+STEP_METALF03 = "step/metal/a";
+STEP_METALF04 = "step/hard";
+STEP_METALF05 = "step/hard";
+STEP_METALF06 = "step/metal/b";
+STEP_METALF07 = "step/metal/b";
+STEP_METALF08 = "step/hard";
+STEP_METALF09 = "step/hard";
+STEP_METALF10 = "step/metal/b";
+STEP_METALF11 = "step/metal/b";
+STEP_METALF12 = "step/metal/a";
+STEP_METALF13 = "step/metal/b";
+STEP_METALF14 = "step/metal/b";
+STEP_METALF15 = "step/metal/a";
+STEP_METALF16 = "step/metal/a";
+STEP_METALF17 = "step/metal/a";
+STEP_METALF18 = "step/metal/b";
+STEP_METALF19 = "step/metal/b";
+STEP_METALF20 = "step/metal/b";
+STEP_METALF21 = "step/metal/a";
+STEP_METALF22 = "step/hard";
+STEP_METALF23 = "step/hard";
+STEP_METALF24 = "step/metal/a";
+
+STEP_PLATF2 = "step/metal/a";
+
+STEP_Q2COMP3 = "step/metal/b";
+STEP_Q2COMP4 = "step/metal/b";
+STEP_Q2COMP5 = "step/metal/b";
+STEP_Q2COMP6 = "step/metal/b";
+STEP_Q2COMP7 = "step/metal/b";
+STEP_Q2COMP8 = "step/metal/b";
+STEP_Q2COMP9 = "step/metal/b";
+STEP_Q2COMP10 = "step/metal/b";
+STEP_Q2COMP11 = "step/metal/b";
+STEP_Q2COMP12 = "step/metal/b";
+STEP_Q2COMP13 = "step/metal/b";
+STEP_Q2COMP14 = "step/metal/b";
+
+STEP_Q2FLAT05 = "step/metal/b";
+STEP_Q2FLAT06 = "step/metal/b";
+STEP_Q2FLAT07 = "step/metal/b";
+STEP_Q2FLAT08 = "step/metal/b";
+
+STEP_QCOMP1 = "step/metal/a";
+STEP_QCOMP2 = "step/metal/a";
+STEP_QCOMP3 = "step/metal/a";
+STEP_QCOMP4 = "step/metal/a";
+STEP_QCOMP5 = "step/metal/a";
+STEP_QCOMP6 = "step/metal/a";
+STEP_QCOMP7 = "step/metal/a";
+STEP_QCOMP8 = "step/metal/a";
+
+STEP_QEXIT1 = "step/gravel";
+STEP_QEXIT2 = "step/gravel";
+STEP_QEXIT3 = "step/gravel";
+STEP_QFLAT01 = "step/metal/a";
+STEP_QFLAT02 = "step/hard";
+STEP_QFLAT03 = "step/hard";
+STEP_QFLAT04 = "step/hard";
+STEP_QFLAT05 = "step/hard";
+STEP_QFLAT06 = "step/hard";
+STEP_QFLAT07 = "step/hard";
+STEP_QFLAT09 = "step/metal/a";
+STEP_QFLAT10 = "step/metal/b";
+
+STEP_QFWAT = "step/water";
+STEP_QGRASS = "step/grass";
+STEP_QROCK1 = "step/rock";
+STEP_QROCK2 = "step/rock";
+STEP_QROCK3 = "step/rock";
+STEP_QROCK4 = "step/rock";
+STEP_QROCK5 = "step/rock";
+STEP_QROCK6 = "step/rock";
+STEP_QLAVA = "step/lava";
+STEP_QLAVA2 = "step/lava";
+STEP_QLAVA7 = "step/lava";
+STEP_QMET01 = "step/metal/a";
+STEP_QMET18 = "step/metal/a";
+STEP_QSLIME1 = "step/slime";
+STEP_QSLIME2 = "step/slime";
+STEP_QSLIP1 = "step/metal/b";
+STEP_QSLIP2 = "step/metal/b";
+STEP_QSLIP3 = "step/metal/b";
+STEP_QSLIP4 = "step/metal/b";
+STEP_QSLIP5 = "step/metal/b";
+STEP_QSLIP6 = "step/metal/b";
+STEP_QSLIP7 = "step/metal/b";
+STEP_QTELEPT = "null";
+STEP_QWATER1 = "step/water";
+STEP_QWATER2 = "step/water";
+STEP_QWATER3 = "step/water";
+STEP_QWATER3A = "step/water";
+STEP_QWATERT6 = "step/water";
+
+
+STEP_ROCKF1 = "step/rock";
+STEP_ROCKF2 = "step/rock";
+STEP_ROCKF3 = "step/rock";
+STEP_ROCKF4 = "step/rock";
+STEP_ROCKF5 = "step/rock";
+STEP_ROCKF6 = "step/rock";
+STEP_ROCKF7 = "step/rock";
+STEP_ROCKF8 = "step/rock";
+
