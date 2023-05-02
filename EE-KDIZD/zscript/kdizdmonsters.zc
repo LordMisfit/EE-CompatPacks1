@@ -319,7 +319,7 @@ class ShadowNew : EECreature
 	States
 	{
 		Spawn:
-			SHDW A 0 NoDelay ;
+			SHDW A 0 NoDelay;
 			goto See;
 		See:
 			SHDW A 0;
