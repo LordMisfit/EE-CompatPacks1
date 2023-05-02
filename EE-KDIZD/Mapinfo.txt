@@ -10,6 +10,7 @@ episode Z1M1
 DoomEdNums
 {
 	3201 = RapidFireTrooper
+	3126 = Shadow
 	26000 = NightmareNew
 }
 
